@@ -15,14 +15,15 @@ if __name__ == '__main__':
     position = pd.Series(position_dict)
     data_frame = pd.DataFrame({'Grades':grades, 'Marks':marks, 'Position':position})
     print(data_frame)
+    print(data_frame.iloc[1:3:, 1:3])
     # print(data_frame.T)
     # print(data_frame.values[2, 2])
     # print(data_frame.index)
     # print(data_frame.columns)
     # print(data_frame.iterrows())
-    data_frame['percentage'] = (data_frame['Marks']/100)*100
-    print(data_frame)
-    print(data_frame.values[2, :])
-    del data_frame['Position']
-    print(data_frame)
-    print(data_frame[data_frame['Marks'] > 70])
+    # data_frame['percentage'] = (data_frame['Marks']/100)*100
+    # print(data_frame)
+    # print(data_frame.values[2, :])
+    # del data_frame['Position']
+    # print(data_frame)
+    # print(data_frame[data_frame['Marks'] > 70])
