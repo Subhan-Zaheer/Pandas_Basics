@@ -6,4 +6,5 @@ if __name__ == '__main__':
     print(a[5])
     print(a.loc[1])
     print(a[1:3])
-    print(a.loc[1 : 3])
+    print(a.loc[1 : 3])  # Used for Explicit Indexing
+    print(a.iloc[1:3])   # Used for Implicit Indexing
