@@ -42,4 +42,5 @@ covid_df['new_col_name'] : We can also add new column into our data frame by thi
 .drop('col_name'] : We can also drop a column using this method.
 .sort() : This function is used to sort values in data frame.
 We can also replace value in data frame.
+We can also convert data to built in data format in pandas data frame.
 """
